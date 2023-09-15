@@ -23,7 +23,11 @@
 1. 影像辨識 與 ai 機器控制
 1. 模主化使他人可以輕易介入
 
-目前考慮可能做影像辨識會比較簡單，係上本來就有再做這樣的話就只要解決unity環境環境問題就好。
+## 發展可能
+
+- 可以作為影像辨識的測試場景
+- 影像辨識的data set來源
+- 可以測試控制機器的指令合理性
 
 -----
 
@@ -41,3 +45,16 @@ micro-ROS這個感覺比較會會符合我們的需求，成本感覺可以較�
 - [MicroROS, combining advanced robotics and low-cost embedded systems](https://www.youtube.com/watch?v=aOktdgwbm_M)
 - [ROS教學1 什麼是ROS 如何安裝ROS](https://www.youtube.com/watch?v=qMZ_MYU2H0s)
 - [古月 · ROS入门](https://www.youtube.com/playlist?list=PL4XGr_39oSTlRckDYw7FbGRyIOfH63Gc5)
+
+## 目標
+
+1. 了解micro-ROS
+1. 選擇開發板
+1. 測試各種敢測器
+1. 設計高負載環境(如一次多推幾個馬達或是其他高工率設備）
+1. 與unity連結
+
+# 硬體
+
+目前未定，如果要做機械手臂的話我們要重什麼程度下手？
+根據我們的能力其實3D要學且馬達特性也要了解，甚至是用動學與其他物理知識，這部份用其他人套件或許是我們較適合的方案

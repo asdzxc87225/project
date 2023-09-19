@@ -1,0 +1,20 @@
+# ROS入門
+
+- [ROS2 LST官方文檔](http://docs.ros.org/en/humble/index.html)
+- [micro ROS](https://micro.ros.org/docs/tutorials/core/overview/)
+- [參考書](https://www.tenlong.com.tw/products/9787111715504)
+- [Getting Started with ROS Part 1: Nodes, Parameters and Topics](https://www.youtube.com/watch?v=46TPAKXBOF8)
+# 安裝
+
+- [官方ubuntu](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+- [it文章](https://ithelp.ithome.com.tw/articles/10239445)
+
+## 運行測試
+
+### step1 
+要先啟用ros2的環境。
+```
+source /opt/ros/humble/setup.zsh
+```
+根據使用者的shell去下對應的指令
+bash 的改成下面

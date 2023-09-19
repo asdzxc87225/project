@@ -54,6 +54,14 @@ micro-ROS這個感覺比較會會符合我們的需求，成本感覺可以較�
 1. 設計高負載環境(如一次多推幾個馬達或是其他高工率設備）
 1. 與unity連結
 
+## arduino 
+- [Due](https://docs.arduino.cc/hardware/due)
+- [Due 購買網站](https://store-usa.arduino.cc/products/arduino-due?selectedStore=us)
+- [Zero](https://docs.arduino.cc/hardware/zero)
+- [Zero 購買網站](https://store-usa.arduino.cc/products/arduino-zero?selectedStore=us)
+- [micro\_ros\_arduion](https://github.com/micro-ROS/micro_ros_arduino)
+
+
 # 硬體
 
 目前未定，如果要做機械手臂的話我們要重什麼程度下手？

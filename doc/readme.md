@@ -10,6 +10,7 @@
 
 # ROS install 
 - [下載文件](https://docs.ros.org/en/humble/Installation.html)
+- [ros index](https://index.ros.org/)
 
 ## 步驟
 
@@ -45,3 +46,56 @@ sudo apt upgrade
 sudo apt install ros-humble-ros-base
 sudo apt install ros-dev-tools
 ```
+
+# 建立工作區
+
+1. 啟用ROS2環境
+1. 建立目錄
+1. 複製範例儲存庫
+1. 解決依賴關西
+1. 使用colcon建立工作區
+1. 來源覆蓋
+
+## 啟用ROS2環境
+```sh
+source /opt/ros/humble/setup.bash
+```
+## 建立目錄
+```sh
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+```
+
+## 複製範例儲存庫
+```sh
+git clone https://github.com/ros/ros_tutorials.git -b humble
+```
+## 解決依賴關西
+```sh
+# cd if you're still in the ``src`` directory with the ``ros_tutorials`` clone
+cd ..
+rosdep install -i --from-path src --rosdistro humble -y
+```
+得到下面的回覆就代表ok沒問題
+```sh
+#All required rosdeps installed successfully
+```
+
+## 使用colcon建立工作區
+
+```
+colcon build
+```
+檢查結果
+```
+colcon test
+```
+
+## 來源覆蓋
+用source 去啟用剛剛建立的程式
+```
+source install/local_setup.bash
+```
+接下來就可以使用相關功能
+
+
